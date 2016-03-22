@@ -1,0 +1,26 @@
+{
+    "name": "juaguz/restclient",
+    "description": "restclient for php",
+    "keywords": ["laravel","api","restclient"],
+    
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "JG",
+            "email": "juanguzman91@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*|5.2.*"
+
+
+    },
+    "autoload": {
+        "psr-4": {
+            "JuaGuz\\RestClient\\": "src/"
+        }
+    }
+
+}
