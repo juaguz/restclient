@@ -6,11 +6,11 @@
  * Time: 17:52
  */
 
-namespace JuaGuz\RestClient;
+namespace JuaGuz\RestClient\Providers;
 use JuaGuz\RestClient\RestClient;
 
 
-class ServiceProvider extends \Illuminate\Support\ServiceProvider
+class RestClientServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
@@ -27,7 +27,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     public function register()
     {
 
-        $this->app->bind('RestClient', function($app)
+        $this->app->bind('restclient', function($app)
         {
             return new RestClient();
         });

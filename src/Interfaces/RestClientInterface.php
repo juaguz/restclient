@@ -6,7 +6,7 @@
  * Time: 17:48
  */
 
-namespace JuaGuz\Interfaces;
+namespace JuaGuz\RestClient\Interfaces;
 
 
 interface RestClientInterface

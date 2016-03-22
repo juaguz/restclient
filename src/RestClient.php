@@ -1,6 +1,6 @@
 <?php namespace JuaGuz\RestClient;
 
-use JuaGuz\Interfaces\RestClientInterface;
+use JuaGuz\RestClient\Interfaces\RestClientInterface;
 
 class RestClient implements RestClientInterface{
 

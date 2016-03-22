@@ -1,6 +1,6 @@
-<?php namespace JuaGuz\RestClient;
+<?php namespace JuaGuz\RestClient\Facades;
 
-class Facade extends \Illuminate\Support\Facades\Facade
+class RestClientFacade extends \Illuminate\Support\Facades\Facade
 {
     /**
      * {@inheritDoc}
